@@ -133,3 +133,38 @@ footer{
 		border: 1px solid #bbb;
 	}
 }
+
+table, th, td {
+	border: 1px solid darkblue;
+	margin-right: 2.5rem;
+	padding: 20px;
+}
+
+.header_color {
+	background-color: #F18F01;
+	color: white;
+}
+
+.header_sample {
+	background-color: #F18F01;
+	color: white;
+}
+
+.nav_color {
+	background-color: #2E4057;
+	color: white;
+}
+
+.nav_sample {
+	background-color: #2E4057;
+	color: white;
+}
+
+.body_color {
+	background-color: #3BCCEC;
+	color: black;
+}
+
+.body_sample {
+	background-color: #3BCCEC;
+}
