@@ -142,29 +142,35 @@ table, th, td {
 
 .header_color {
 	background-color: #F18F01;
+	font-family: Georgia, serif;
 	color: white;
 }
 
 .header_sample {
 	background-color: #F18F01;
+	font-family: Georgia, serif;
 	color: white;
 }
 
 .nav_color {
 	background-color: #2E4057;
+	font-family: Georgia, serif;
 	color: white;
 }
 
 .nav_sample {
 	background-color: #2E4057;
+	font-family: Georgia, serif;
 	color: white;
 }
 
 .body_color {
 	background-color: #3BCCEC;
+	font-family: Helvetica, sans-serif;
 	color: black;
 }
 
 .body_sample {
 	background-color: #3BCCEC;
+	font-family: Helvetica, sans-serif;
 }
