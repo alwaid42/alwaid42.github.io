@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #F18F01;
+    padding: 5px 0;
+    border-radius: 0 0.75rem;
+    display: flex;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0 , 0.9);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+
+.headings h1 {
+	font-size: 1.5rem;
+}
+
+.motto {
+    letter-spacing: 1pt;
+	color: blacko;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+#menu{
+    background-color: #2E4057;
+    margin: 0 auto;
+    max-width: 900px;
+    box-shadow: 0 0 30px rgba(0, 0, 0 , 0.9);
+}
+
+#menu ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    background: linear-gradient(90deg, transparent, white, transparent) bottom /
+        var(--d, 0) 10px no-repeat;
+    transition: 0.5s;
+}
+
+.active{
+    color: green;
+}
+
+footer{
+    background-color: #F18F01;
+    border-radius: 0 0.75rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0 , 0.9);
+}
+
+#signature{
+    padding: 5px 0;
+    text-align: center;
+    color: black;
+}
+
+#date_time{
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+}
