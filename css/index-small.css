@@ -175,10 +175,10 @@ table, th, td {
 	font-family: Helvetica, sans-serif;
 }
 
-.john_image{
+#john_image{
 	width: 200px;
 }
 
-.sara_image{
+#sara_image{
 	width: 200px;
 }
