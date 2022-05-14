@@ -1,0 +1,16 @@
+@media only screen and (min-width: 35rem){
+
+    .navigation li:first-child{
+        display: none;
+    }
+
+    .navigation li{
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        margin-left: 2vm;
+    }
+
+}

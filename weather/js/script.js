@@ -1,3 +1,9 @@
+function toggleMenu() {
+    document
+        .getElementsByClassName("navigation")[0]
+        .classList.toggle("responsive");
+}
+
 let date = new Date();
 const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursdays", "Friday", "Saturday"]
 let currentWeekday = weekdays[date.getDay()];

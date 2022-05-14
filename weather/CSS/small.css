@@ -44,7 +44,7 @@ header{
 	font-weight: 700;
 	font-size: 0.8rem;
 }
-
+/* nav configuration attempt
 #menu{
     background-color: #2E4057;
     margin: 0 auto;
@@ -71,6 +71,53 @@ header{
 
 .active{
     color: green;
+}
+*/
+
+/*Alternative nav attempt
+*/
+nav{
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: #2E4057;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover{
+    color: black;
+    background-color: darkgray;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav ul li.active a {
+    color: #2E4057;
+    background-color: rgba(255, 255, 255 , 0.6);
 }
 
 #content{

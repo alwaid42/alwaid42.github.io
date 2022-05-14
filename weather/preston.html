@@ -8,8 +8,9 @@
     <meta name="description" content="Preston Weather page for Ronaldo Schmidt in WDD 230: Web Frontend Development at Brigham Young University - Idaho"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link href = "css/index-medium.css" rel=stylesheet>
-    <link href = "css/index-small.css" rel=stylesheet>
+    <link href = "CSS/large.css" rel=stylesheet>
+    <link href = "CSS/medium.css" rel=stylesheet>
+    <link href = "CSS/small.css" rel=stylesheet>
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,10 +28,11 @@
     </header>
 
     <nav id="menu">
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="active"><a href="preston.html">Home</a></li>
             <li><a href="#">Preston</a></li>
-            <li><a href="#">Sode Springs</a></li>
+            <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
             <li><a href="#">Gallery</a></li>
