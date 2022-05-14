@@ -1,16 +1,22 @@
-@media only screen and (min-width: 35rem){
-
-    .navigation li:first-child{
-        display: none;
+@media only screen and (min-width: 32.5rem){
+    .navigation {
+        display: flex;
     }
 
     .navigation li{
-        display: flex;
+        display: block;
+        flex: 1 1 auto;
+        color: yellow;
     }
 
     nav ul {
         display: flex;
+        justify-content: center;
         margin-left: 2vm;
+    }
+
+    .navigation li:first-child{
+        display: none;
     }
 
 }
