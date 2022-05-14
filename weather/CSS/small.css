@@ -106,13 +106,24 @@ nav{
     font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
+.navigation a.ham:before {
+    content: "\2630 Menu";
+}
+
 .navigation a:hover{
     color: black;
     background-color: darkgray;
 }
 
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
 .responsive li {
     display: block;
+}
+
+.responsive a.ham::before {
+    content: "X ";
 }
 
 nav ul li.active a {
@@ -148,3 +159,20 @@ footer{
     text-align: center;
     padding-bottom: 5px;
 }
+
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;  change state in small view 
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
+
