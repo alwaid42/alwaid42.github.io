@@ -40,7 +40,7 @@ header{
 
 .motto {
     letter-spacing: 1pt;
-	color: blacko;
+	color: black;
 	font-weight: 700;
 	font-size: 0.8rem;
 }
@@ -71,6 +71,14 @@ header{
 
 .active{
     color: green;
+}
+
+#content{
+    background-color: #048BA8;
+    margin: 0 auto;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0 , 0.9);
+    padding: 5px 0;
 }
 
 footer{
